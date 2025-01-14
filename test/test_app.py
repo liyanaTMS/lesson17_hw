@@ -13,8 +13,8 @@ def test_divide():
     """Тестирует функцию деления."""
     assert divide(10, 2) == 5
     assert divide(9, 3) == 3
-
-
+# with pytest.raises(ValueError):
+    #     divide(5, 0)
 def test_divide_msg():
     """
     Тестирует вызов сообщения ValueError, если второй аргумент (b) равен нулю.
