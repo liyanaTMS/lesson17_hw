@@ -15,6 +15,7 @@ def test_divide():
     assert divide(9, 3) == 3
 
 
+
 def test_divide_msg():
     """
     Тестирует вызов сообщения ValueError, если второй аргумент (b) равен нулю.
